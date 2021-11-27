@@ -1,0 +1,36 @@
+.headingContainer {
+  margin-top: 5.6rem;
+  position: relative;
+}
+
+.heading {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: 1px;
+  padding: 2.4rem;
+  text-align: center;
+  width: 70%;
+  text-transform: uppercase;
+  font-family: 'Lazer84', sans-serif;
+  color: var(--turquoise);
+  -moz-text-shadow: 5px 5px 0px var(--black);
+  -webkit-text-shadow: 5px 5px 0px var(--black);
+  text-shadow: 5px 5px 0px var(--black);
+  z-index: 5;
+  margin: 0 auto;
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.letterSpacing {
+  letter-spacing: 4px;
+}
+
+.triangle {
+  z-index: -1;
+  position: absolute;
+  top: -45px;
+  left: 0;
+}
