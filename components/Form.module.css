@@ -1,0 +1,52 @@
+.form {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.4rem;
+  z-index: 2;
+  position: relative;
+}
+
+.label {
+  padding: 0.8rem 1.6rem;
+  color: var(--black);
+  background: var(--pink);
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  max-width: min-content;
+  box-shadow: var(--box);
+}
+
+.input {
+  border: 1px var(--black) solid;
+  box-shadow: var(--box);
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.input::placeholder {
+  color: var(--grey);
+}
+
+.submit {
+  margin: 0 auto;
+  padding: 0.8rem 3.2rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+  background: var(--yellow);
+  width: min-content;
+  font-weight: bold;
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+}

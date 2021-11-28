@@ -5,6 +5,7 @@
   --pink: #f197e0;
   --orange: #d78060;
   --black: #452206;
+  --grey: #bebebe;
   --box: 6px 6px 0px 0px var(--black);
 }
 
@@ -61,16 +62,6 @@ main {
   bottom: 7%;
 }
 
-@media only screen and (max-width: 360px) {
-  main {
-    padding-top: 12vh;
-  }
-
-  .flex {
-    margin-bottom: 5.6rem;
-  }
-}
-
 /* SHAPES */
 
 .shapes-absolute {
@@ -122,4 +113,14 @@ main {
 .wiggle {
   top: 63%;
   left: -74px;
+}
+
+@media only screen and (max-width: 360px) {
+  main {
+    padding-top: 12vh;
+  }
+
+  .flex {
+    margin-bottom: 5.6rem;
+  }
 }

@@ -15,3 +15,22 @@
   z-index: 10;
   /* font-family: 'Covered By Your Grace', cursive; */
 }
+
+.form {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--turquoise);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 2.4rem;
+  margin-bottom: 2.4rem;
+  padding: 0.8rem;
+  text-align: center;
+  transform: rotate(-6.5deg);
+  z-index: 10;
+  position: relative;
+}
