@@ -1,5 +1,4 @@
 .headingContainer {
-  margin-top: 5.6rem;
   position: relative;
 }
 
@@ -16,8 +15,9 @@
   -moz-text-shadow: 5px 5px 0px var(--black);
   -webkit-text-shadow: 5px 5px 0px var(--black);
   text-shadow: 5px 5px 0px var(--black);
-  z-index: 5;
+  z-index: 10;
   margin: 0 auto;
+  position: relative;
 }
 
 .pink {
@@ -29,8 +29,8 @@
 }
 
 .triangle {
-  z-index: -1;
+  z-index: 2;
   position: absolute;
   top: -45px;
-  left: 0;
+  left: 16px;
 }

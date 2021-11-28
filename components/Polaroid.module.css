@@ -3,3 +3,9 @@
   margin-top: -2rem;
   transform: rotate(8.95deg);
 }
+
+@media only screen and (max-width: 360px) {
+  .middle {
+    display: none;
+  }
+}
