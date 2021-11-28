@@ -24,8 +24,11 @@ export default function Home() {
         />
       </Head>
       <main>
-        <TextBox text="29th Jan 2022, You comin'?" form />
-        <Form />
+        <TextBox
+          text="Thanks for filling out the form!
+                I’ll be in touch soon"
+          form
+        />
         <div className="shapes-absolute circle-pink">
           <Image height={116} width={116} src="/circle-pink.svg" />
         </div>
@@ -49,6 +52,9 @@ export default function Home() {
         </div>
         <div className="shapes-absolute ring-yellow">
           <Image height={24} width={24} src="/ring-yellow.svg" />
+        </div>
+        <div className="shapes-absolute wiggle">
+          <Image height={163} width={170} src="/wiggle.svg" />
         </div>
       </main>
     </div>
