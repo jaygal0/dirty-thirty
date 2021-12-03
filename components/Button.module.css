@@ -8,7 +8,7 @@
   text-align: center;
   font-family: 'Sora', sans-serif;
   background: var(--yellow);
-  width: min-content;
+  width: auto;
   font-weight: bold;
   -moz-box-shadow: 6px 6px 0px 0px var(--black);
   -webkit-box-shadow: 6px 6px 0px 0px var(--black);

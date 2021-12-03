@@ -37,14 +37,14 @@ const Form = () => {
 
   return (
     <form className={style.form} action="" onSubmit={handleSubmit}>
-      {/* <div className={style.radio}>
+      <div className={style.radio}>
         <input type="radio" id="yas" name="rsvp" value="yas" checked /> {' '}
         <label className={style.marginRight} for="yas">
           YAS
         </label>
           <input type="radio" id="nah" name="rsvp" value="nah" /> {' '}
         <label for="nah">NAH</label>
-      </div> */}
+      </div>
       <label className={style.label} htmlFor="name">
         Name
       </label>

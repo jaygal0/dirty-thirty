@@ -62,6 +62,14 @@ main {
   bottom: 7%;
 }
 
+.flex-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 /* SHAPES */
 
 .shapes-absolute {
