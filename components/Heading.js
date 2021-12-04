@@ -12,7 +12,12 @@ const Heading = () => {
         hello <span className={styles.letterSpacing}>30&apos;s</span>
       </h1>
       <div className={styles.triangle}>
-        <Image width={380.67} height={375.01} src="/purple-triangle.svg" />
+        <Image
+          width={380.67}
+          height={375.01}
+          src="/purple-triangle.svg"
+          alt="shape"
+        />
       </div>
     </div>
   )

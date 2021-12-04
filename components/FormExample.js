@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import style from './FormExample.module.css'
 
 const FormExample = () => {
+  const [isPending, setIsPending] = useState(false)
   const router = useRouter()
   const [data, setData] = useState({
     name: '',
@@ -19,6 +20,7 @@ const FormExample = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
+      setIsPending(true)
       await fetch(
         'https://v1.nocodeapi.com/joshsiara78032/google_sheets/RWcTAdyDqKAuiwmp?tabId=Sheet1',
         {
@@ -31,6 +33,7 @@ const FormExample = () => {
           ]),
         }
       )
+      setIsPending(false)
       router.push('/success')
       setData({ ...data, name: '', allergies: '', date: '', rsvp: '' })
     } catch (error) {
@@ -53,7 +56,7 @@ const FormExample = () => {
         <input type="radio" name="rsvp" value="nah" onChange={handleChange} /> {' '}
         <label>NAH</label>
       </div>
-      <label className={style.label}>Name</label>
+      <label className={style.label}>Full Name</label>
       <input
         required
         placeholder="e.g. Sahar Rules"
@@ -63,7 +66,9 @@ const FormExample = () => {
         value={name}
         onChange={handleChange}
       />
-      <label className={style.label}>Allergies (optional)</label>
+      <label className={style.label}>
+        Allergies <span className={style.labelSecond}>(optional)</span>
+      </label>
       <input
         type="text"
         placeholder="FYI Sahar is allergic to nuts"
@@ -72,17 +77,24 @@ const FormExample = () => {
         value={allergies}
         onChange={handleChange}
       />
-      <label className={style.label}>When Is My Actual Birthday?</label>
+      <label className={style.label}>
+        When Is My Actual Birthday?
+        <br />
+        <span className={style.labelSecond}>
+          Get this wrong and you don't eat!
+        </span>
+      </label>
       <input
         required
-        placeholder="Get this wrong and you don't eat!"
+        placeholder="Hint, it's in January!"
         className={style.input}
         type="text"
         name="date"
         value={date}
         onChange={handleChange}
       />
-      <button className={style.submit}>Submit</button>
+      {!isPending && <button className={style.submit}>submit</button>}
+      {isPending && <div className={style.loader}>Loading...</div>}
     </form>
   )
 }

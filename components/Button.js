@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Button = ({ text, link }) => {
   return (
-    <Link href={`/${link}`}>
+    <Link href={`/${link}`} passHref>
       <button className={styles.button}>{text}</button>
     </Link>
   )
