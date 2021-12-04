@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './TextBox.module.css'
 
-const TextBox = ({ text, form, success }) => {
+const TextBox = ({ text, form, success, subText }) => {
   return (
     <div
       className={
@@ -9,6 +9,7 @@ const TextBox = ({ text, form, success }) => {
       }
     >
       {text}
+      {subText && <span className={styles.subText}>{subText}</span>}
     </div>
   )
 }

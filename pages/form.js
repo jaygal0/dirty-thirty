@@ -10,7 +10,11 @@ export default function Home() {
         <title>Sahar Turns 30: Form</title>
       </Head>
       <main>
-        <TextBox text="29th Jan 2022, You comin'?" form />
+        <TextBox
+          text="29th Jan 2022 You comin'?"
+          subText="Location: TBA"
+          form
+        />
         <FormExample />
         <Background />
       </main>
