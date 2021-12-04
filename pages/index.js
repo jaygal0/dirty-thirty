@@ -8,6 +8,9 @@ import TextBox from '../components/TextBox'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Sahar Turns 30</title>
+      </Head>
       <main>
         <Heading />
         <div className="flex">

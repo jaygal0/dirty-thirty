@@ -6,6 +6,9 @@ import Background from '../components/Background'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Sahar Turns 30: Thanks!!!</title>
+      </Head>
       <main className="flex-success">
         <TextBox
           text="Thanks for filling out the form!
