@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Background from '../components/Background'
-import Form from '../components/Form'
 import FormExample from '../components/FormExample'
 import TextBox from '../components/TextBox'
 

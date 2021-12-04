@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import TextBox from '../components/TextBox'
 import Button from '../components/Button'
 import Background from '../components/Background'
