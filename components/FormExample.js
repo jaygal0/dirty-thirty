@@ -81,7 +81,7 @@ const FormExample = () => {
         When Is My Actual Birthday?
         <br />
         <span className={style.labelSecond}>
-          Get this wrong and you don't eat!
+          Get this wrong and you don eat!
         </span>
       </label>
       <input
