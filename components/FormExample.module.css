@@ -7,6 +7,24 @@
   z-index: 2;
   position: relative;
   margin-top: 3.2rem;
+  z-index: 3;
+}
+
+.labelForm {
+  margin: 0 auto;
+  padding: 0.8rem 1.6rem;
+  color: var(--black);
+  background: var(--pink);
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+  width: max-content;
+  box-shadow: var(--box);
+  margin-bottom: -2px;
+  z-index: 3;
 }
 
 .radio {

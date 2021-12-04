@@ -40,6 +40,7 @@ const FormExample = () => {
 
   return (
     <form className={style.form} onSubmit={handleSubmit}>
+      <label className={style.labelForm}>select one</label>
       <div className={style.radio}>
         <input
           type="radio"

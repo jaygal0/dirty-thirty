@@ -5,7 +5,7 @@
 .heading {
   font-size: 4.8rem;
   line-height: 6.4rem;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding: 2.4rem;
   text-align: center;
   width: 70%;
@@ -25,7 +25,7 @@
 }
 
 .letterSpacing {
-  letter-spacing: 4px;
+  letter-spacing: 7px;
 }
 
 .triangle {
@@ -33,4 +33,14 @@
   position: absolute;
   top: -45px;
   left: 16px;
+}
+
+@media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 4rem;
+    line-height: 5.6rem;
+    padding: 2.4rem;
+    text-align: center;
+    width: 70%;
+  }
 }

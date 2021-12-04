@@ -41,21 +41,20 @@ a {
 main {
   height: 100vh;
   padding-top: 7vh;
-  border: 4px solid var(--black);
+  /* border: 4px solid var(--black); */
   box-shadow: var(--box);
   max-height: 926px;
   background-image: url('/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .flex {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -73,7 +72,7 @@ main {
 /* SHAPES */
 
 .shapes-absolute {
-  position: absolute;
+  position: fixed;
   z-index: 1;
 }
 
