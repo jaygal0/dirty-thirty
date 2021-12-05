@@ -15,4 +15,5 @@
   -webkit-box-shadow: 6px 6px 0px 0px var(--black);
   box-shadow: 6px 6px 0px 0px var(--black);
   z-index: 10;
+  border: 2px solid var(--black);
 }

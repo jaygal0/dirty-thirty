@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex">
           <Polaroid />
           <TextBox text="Let's celebrate being old together" />
-          <Button text="RSVP now!" link="form" />
+          <Button text="RSVP here!" link="form" />
         </div>
         <Background />
       </main>

@@ -1,7 +1,7 @@
 .container {
   -moz-box-shadow: 6px 6px 0px 0px var(--black);
   -webkit-box-shadow: 6px 6px 0px 0px var(--black);
-  box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 3px 3px 0px 0px var(--black);
   background: var(--turquoise);
   font-family: 'sora', sans-serif;
   font-size: 1.2rem;
