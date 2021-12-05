@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <meta name="description" content="Sahar turns 30" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/crown-yellow.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

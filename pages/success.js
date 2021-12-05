@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import TextBox from '../components/TextBox'
-import Button from '../components/Button'
 import Background from '../components/Background'
+import Message from '../components/Message'
 
 export default function Home() {
   return (
@@ -12,10 +12,10 @@ export default function Home() {
       <main className="flex-success">
         <TextBox
           text="Thanks for filling out the form!
-                I’ll be in touch soon"
+                I’ll be in touch soon."
           success
         />
-        <Button link="form" text="RSVP Again" />
+        <Message text="Stay awesome!" />
         <Background />
       </main>
     </div>
