@@ -8,7 +8,7 @@ const TextBox = ({ text, form, success, subText }) => {
         form ? styles.form : success ? styles.success : styles.container
       }
     >
-      {text}
+      {text} <br />
       {subText && <span className={styles.subText}>{subText}</span>}
     </div>
   )

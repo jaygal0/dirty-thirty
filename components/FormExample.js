@@ -33,8 +33,8 @@ const FormExample = () => {
           ]),
         }
       )
-      setIsPending(false)
       router.push('/success')
+      setIsPending(false)
       setData({ ...data, name: '', allergies: '', date: '', rsvp: '' })
     } catch (error) {
       console.log(error)
@@ -42,60 +42,74 @@ const FormExample = () => {
   }
 
   return (
-    <form className={style.form} onSubmit={handleSubmit}>
-      <label className={style.labelForm}>select one</label>
-      <div className={style.radio}>
-        <input
-          type="radio"
-          name="rsvp"
-          value="yas"
-          onChange={handleChange}
-          required
-        />
-          <label className={style.marginRight}>YAS</label> {' '}
-        <input type="radio" name="rsvp" value="nah" onChange={handleChange} /> {' '}
-        <label>NAH</label>
-      </div>
-      <label className={style.label}>Full Name</label>
-      <input
-        required
-        placeholder="e.g. Sahar Rules"
-        className={style.input}
-        type="text"
-        name="name"
-        value={name}
-        onChange={handleChange}
-      />
-      <label className={style.label}>
-        Allergies <span className={style.labelSecond}>(optional)</span>
-      </label>
-      <input
-        type="text"
-        placeholder="FYI Sahar is allergic to nuts"
-        className={style.input}
-        name="allergies"
-        value={allergies}
-        onChange={handleChange}
-      />
-      <label className={style.label}>
-        When Is My Actual Birthday?
-        <br />
-        <span className={style.labelSecond}>
-          Get this wrong and you don&apos;t eat!
-        </span>
-      </label>
-      <input
-        required
-        placeholder="Hint, it's in January!"
-        className={style.input}
-        type="text"
-        name="date"
-        value={date}
-        onChange={handleChange}
-      />
-      {!isPending && <button className={style.submit}>submit</button>}
-      {isPending && <div className={style.loader}>Loading...</div>}
-    </form>
+    <>
+      {!isPending && (
+        <form className={style.form} onSubmit={handleSubmit}>
+          <label className={style.labelForm}>select one</label>
+          <div className={style.radio}>
+            <input
+              type="radio"
+              name="rsvp"
+              value="yas"
+              onChange={handleChange}
+              required
+            />
+              <label className={style.marginRight}>YAS</label> {' '}
+            <input
+              type="radio"
+              name="rsvp"
+              value="nah"
+              onChange={handleChange}
+            />
+              <label>NAH</label>
+          </div>
+          <label className={style.label}>Full Name</label>
+          <input
+            required
+            placeholder="e.g. Sahar Rules"
+            className={style.input}
+            type="text"
+            name="name"
+            value={name}
+            onChange={handleChange}
+          />
+          <label className={style.label}>
+            Allergies <span className={style.labelSecond}>(optional)</span>
+          </label>
+          <input
+            type="text"
+            placeholder="FYI Sahar is allergic to nuts"
+            className={style.input}
+            name="allergies"
+            value={allergies}
+            onChange={handleChange}
+          />
+          <label className={style.label}>
+            When Is My Actual Birthday?
+            <br />
+            <span className={style.labelSecond}>
+              Get this wrong and you don&apos;t eat!
+            </span>
+          </label>
+          <input
+            required
+            placeholder="Hint, it's in January!"
+            className={style.input}
+            type="text"
+            name="date"
+            value={date}
+            onChange={handleChange}
+          />
+          <button className={style.submit}>submit</button>
+        </form>
+      )}
+      {isPending && (
+        <div className={style.loading}>
+          <div className={style.loadingText}>submitting</div>
+          <div className={style.loader}>Loading...</div>
+        </div>
+      )}
+    </>
   )
 }
 

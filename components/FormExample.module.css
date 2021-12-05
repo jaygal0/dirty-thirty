@@ -88,7 +88,7 @@
 .submit {
   margin: 0 auto;
   margin-top: 3.2rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 9.6rem;
   padding: 0.8rem 3.2rem;
   font-size: 2.4rem;
   line-height: 3.2rem;
@@ -104,6 +104,32 @@
   box-shadow: 6px 6px 0px 0px var(--black);
 }
 
+.loading {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--pink);
+  font-family: 'sora', sans-serif;
+  padding: 3.2rem;
+  text-align: center;
+  transform: rotate(6.5deg);
+  width: 70%;
+}
+
+.loadingText {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: bold;
+  color: var(--black);
+  text-transform: capitalize;
+}
+
 .loader,
 .loader:before,
 .loader:after {
@@ -116,10 +142,9 @@
   animation: load7 1.8s infinite ease-in-out;
 }
 .loader {
-  color: #000000;
+  color: var(--black);
   font-size: 10px;
-  margin: 1.2rem auto;
-  margin-bottom: 5.6rem;
+  margin: 1.2rem 0 4.8rem 0;
   position: relative;
   text-indent: -9999em;
   -webkit-transform: translateZ(0);
