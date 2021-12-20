@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
       <main>
         <TextBox
-          text="29th Jan 2022 You comin'?"
-          subText="Location: TBA"
+          text="26th Feb 2022. You comin&#39;?"
+          subText="Location: Partille"
           form
         />
         <FormExample />
