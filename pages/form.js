@@ -13,6 +13,7 @@ export default function Home() {
         <TextBox
           text="26th Feb 2022. You comin&#39;?"
           subText="Location: Partille"
+          subText2="Theme: TBA"
           form
         />
         <FormExample />
