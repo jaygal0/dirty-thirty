@@ -21,7 +21,12 @@ const InfoText = ({
         <div className={styles.containerYellow}>
           <div className={styles.heading}>{heading}</div>
           {address ? (
-            <a className={styles.link} href={address} target="_blank">
+            <a
+              className={styles.link}
+              href={address}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.text}>{text}</div>
             </a>
           ) : (
@@ -52,7 +57,12 @@ const InfoText = ({
         <div className={styles.containerPink}>
           <div className={styles.heading}>{heading}</div>
           {address ? (
-            <a className={styles.link} href={address} target="_blank">
+            <a
+              className={styles.link}
+              href={address}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.text}>{text}</div>
             </a>
           ) : (
@@ -78,7 +88,12 @@ const InfoText = ({
         <div className={styles.containerTurquoise}>
           <div className={styles.heading}>{heading}</div>
           {address ? (
-            <a className={styles.link} href={address} target="_blank">
+            <a
+              className={styles.link}
+              href={address}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.text}>{text}</div>
             </a>
           ) : (
@@ -103,7 +118,12 @@ const InfoText = ({
         <div className={styles.containerPurple}>
           <div className={styles.heading}>{heading}</div>
           {address ? (
-            <a className={styles.link} href={address} target="_blank">
+            <a
+              className={styles.link}
+              href={address}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.text}>{text}</div>
             </a>
           ) : (

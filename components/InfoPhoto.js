@@ -11,6 +11,7 @@ const InfoPhoto = ({ img, position }) => {
           layout="fill"
           objectFit="cover"
           objectPosition="top"
+          alt={img}
         />
       </div>
     </div>
