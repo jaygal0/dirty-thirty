@@ -12,8 +12,8 @@ const InfoText = ({
   moreText,
   covid,
   bus,
-  parking,
-  calendar,
+  train,
+  car,
 }) => {
   return (
     <>
@@ -34,10 +34,16 @@ const InfoText = ({
               {bus}
             </div>
           )}
-          {parking && (
+          {train && (
             <div className={styles.transport}>
-              <span>parking: </span>
-              {parking}
+              <span>train station: </span>
+              {train}
+            </div>
+          )}
+          {car && (
+            <div className={styles.transport}>
+              <span>car: </span>
+              {car}
             </div>
           )}
         </div>
@@ -60,10 +66,10 @@ const InfoText = ({
               {bus}
             </div>
           )}
-          {parking && (
+          {car && (
             <div className={styles.transport}>
-              <span>parking: </span>
-              {parking}
+              <span>car: </span>
+              {car}
             </div>
           )}
         </div>
@@ -85,10 +91,10 @@ const InfoText = ({
               {bus}
             </div>
           )}
-          {parking && (
+          {car && (
             <div className={styles.transport}>
-              <span>parking: </span>
-              {parking}
+              <span>car: </span>
+              {car}
             </div>
           )}
         </div>
@@ -111,10 +117,10 @@ const InfoText = ({
               {bus}
             </div>
           )}
-          {parking && (
+          {car && (
             <div className={styles.transport}>
-              <span>parking: </span>
-              {parking}
+              <span>car: </span>
+              {car}
             </div>
           )}
         </div>

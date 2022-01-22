@@ -15,7 +15,7 @@ export default function Home() {
         <InfoText
           purple
           heading="covid update"
-          covid="this is an update message"
+          covid="The party may be affected due to covid, I&#39;ll keep you up-to-date if anything changes."
         />
         <InfoText
           yellow
@@ -28,22 +28,22 @@ export default function Home() {
         />
         <InfoText
           yellow
-          address="https://google.com"
+          address="https://goo.gl/maps/18yyBwbeYsHnAv598"
           heading="address"
-          text="add address here"
-          bus="svart express"
-          parking="3 spots first come first serve"
+          text="Anna-stinas lid 7, 433 75 Jonsered"
+          bus="518, 519, 529"
+          train="Jonsered Station, Partille"
+          car="venue parking"
         />
-
         <InfoText
           pink
           heading="theme/Dress code"
-          text="Late 80&#39;s/Early 90&#39;s*"
-          moreText="*not compulsory, but you&#39;re boring if you don&#39;t dress up"
+          text="Late 80&#39;s/Early 90&#39;s"
         />
         <InfoHeading subheading="a few ideas" />
         <InfoPhoto img="fresh" />
-        <InfoPhoto img="clueless" />
+        <InfoPhoto img="clueless2" />
+        <InfoPhoto position img="brooke" />
         <Background />
       </main>
     </div>
