@@ -1,0 +1,30 @@
+.container {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--pink);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 1.2rem 2.4rem;
+  padding: 2.4rem;
+  z-index: 10;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.imageWrapper:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}

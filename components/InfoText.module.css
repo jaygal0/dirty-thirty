@@ -1,0 +1,114 @@
+.containerYellow {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--yellow);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 1.2rem 2.4rem;
+  padding: 2.4rem;
+  z-index: 10;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.containerTurquoise {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--turquoise);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 1.6rem 2.4rem;
+  padding: 2.4rem;
+  z-index: 10;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.containerPink {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--pink);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 1.6rem 2.4rem;
+  padding: 2.4rem;
+  z-index: 10;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.containerPurple {
+  -moz-box-shadow: 6px 6px 0px 0px var(--black);
+  -webkit-box-shadow: 6px 6px 0px 0px var(--black);
+  box-shadow: 6px 6px 0px 0px var(--black);
+  background: var(--purple);
+  font-family: 'Sora', sans-serif;
+  font-size: 3.2rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 1.2rem 2.4rem;
+  padding: 2.4rem;
+  z-index: 10;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.heading {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.text {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.moreText {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.covid {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-style: italic;
+}
+.transport {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.transport span {
+  font-weight: 700;
+}
+.link {
+  text-decoration: underline;
+  color: var(--purple);
+}
